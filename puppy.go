@@ -1,6 +1,8 @@
 package puppy
 
 import (
+	"fmt"
+
 	"github.com/thejaswa/dog"
 )
 
@@ -20,3 +22,9 @@ func BigBarks() string {
 	//return "BowBOW"
 	return dog.BigDogBark(Braks())
 }
+func Tagging() {
+	fmt.Println("im from v1.0.0")
+}
+
+
+
